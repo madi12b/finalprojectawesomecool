@@ -1,0 +1,46 @@
+h1{
+    color: pink;
+}
+.h2stylings{
+    color: green;
+}
+.clickable-box {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline for links */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable-box:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.clickable-box:active {
+    background-color: #004080; /* Even darker blue on click */
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+.backtopro{
+    color: black;
+    
+}
+
+.tableauPlaceholder{
+    width: 20em;
+}
